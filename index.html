@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeeksforGeeks We</title>
+    <style>
+        *{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.heading{
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
+.options{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+}
+.but{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+
+
+}
+button:hover{
+    cursor: pointer;
+}
+table{
+    border-collapse: collapse;
+    width: 70%;
+  margin: 20px 0;
+}
+td, th{
+text-align: center;
+font-size: small;
+padding: 5px;
+}
+ul{
+    font-size: small;
+}
+b{
+    color: #007bff;
+}
+h3{
+    color: #007bff;
+    font-size: larger;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.about{
+    background-color: beige;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.schedule{
+    background-color: beige;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.people{
+    background-color: beige;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.info{
+    background-color: beige;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.send{
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="heading">
+        <h1>Welcome to GeeksforGeeks Techcon 2026</h1>
+      <h5>The ultimate technology and programming conference</h5>
+        </div>
+      <div class="options">
+    <a href="#about">
+        <button class="but">About</button>
+    </a>
+    <a href="#schedule">
+        <button class="but" >Schedule</button>
+    </a>
+    <a href="#speakers">
+        <button class="but">Speakers</button>
+    </a>
+    <a href="#contact">
+        <button class="but">Contact</button>
+    </a>
+    </div>
+    </header>
+    <main>
+        <section class="about" id="about" >
+            <h3>ABOUT CONFERENCE </h3>
+            <p>GeeksforGeeks Techcon 2026 brings together leading minds in programming ,tech and innovation</p>
+
+        </section>
+        <section class="schedule" id="schedule">
+            <h3>EVENT SCHEDULE</h3>
+            <table border="1">
+                <tr>
+                    <th>time</th>
+                    <th>session</th>
+                    <th>contest</th>
+                </tr>
+                <tr>
+                    <td>9:00 am</td>
+                    <td>opening a key note</td>
+                    <td>GeeksforGeeks platform</td>
+
+                </tr>
+                <tr>
+                    <td>10:00 am</td>
+                    <td>understanding ai tools</td>
+                    <td>mr.aravind kumar</td>
+                </tr>
+                <tr>
+                    <td>1:00 pm</td>
+                    <td>lunch</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>2:00 pm</td>
+                    <td>exploring the future of cloud computing</td>
+                    <td>ms.neha gupta</td>
+                </tr>
+            </table>
+
+        </section>
+        <section class="people" id="speakers">
+            <h3>Meet the Speakers</h3>
+            <ul>
+                <li> <b>Dr. Radhika Sharma: </b>AI Expert and Researcher </li><br>
+                <li> <b>Mr. Arvind Kumar: </b> senior data scientist at techwave</li><br>
+                <li> <b>Ms. Neha Gupta: </b> cloud computing specialist at cloudtech</li><br>
+                <li> <b>Mr. Sandeep Reddy: </b> Full Stack Developer and open-source contributor</li>
+            </ul>
+
+        </section>
+        <section class="info" id="contact">
+            <h3>CONTACT</h3>
+            <label for="">Name:</label><br>
+            <input type="text"><br>
+            <label for="">Email:</label><br>
+            <input type="email"><br>
+            <label for="">Message:</label><br>
+            <textarea name="message" id="message"></textarea><br>
+            <button class="send">send</button>
+
+        </section>
+        <footer>
+            @ All rights reserved by Makkena mounika chowdary
+        </footer>
+    </main>
+</body>
+</html>
